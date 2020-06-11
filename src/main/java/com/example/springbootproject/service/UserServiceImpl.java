@@ -37,6 +37,11 @@ public class UserServiceImpl implements UserService{
         }
     }
 
+    /**
+     *
+     * @return
+     * @throws ServiceException
+     */
     @Override
     public List<User> getAllUsers() throws ServiceException {
         try{
