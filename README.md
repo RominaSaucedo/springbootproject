@@ -20,3 +20,12 @@ Protect endpoints with Spring Security.
 
 Bonus
 ·Appropriate HTTP status codes
+
+
+Code is running under port 8080 and for security these are the user and passwords to use:
+  * User: user, Password: password with role USER
+  * User: admin, Password: admin with roles ADMIN and USER
+
+For delete and add only user with role ADMIN is allowed.
+For any other call all users are allowed.
+
